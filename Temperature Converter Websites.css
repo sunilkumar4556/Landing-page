@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+.converter {
+    margin: 1em 0;
+}
+.converter label {
+    margin-right: 0.5em;
+}
+.converter input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
+.converter button {
+    padding: 0.5em 1em;
+}
+#result {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
